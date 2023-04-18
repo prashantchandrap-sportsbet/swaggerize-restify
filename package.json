@@ -30,22 +30,22 @@
     "node": "0.10.x"
   },
   "dependencies": {
-    "async": "^0.9.0",
-    "caller": "^0.0.1",
-    "core-util-is": "^1.0.1",
+    "async": "^3.2.4",
+    "caller": "^1.1.0",
+    "core-util-is": "^1.0.3",
     "debuglog": "^1.0.1",
-    "js-yaml": "^3.2.6",
-    "swaggerize-routes": "^1.0.0"
+    "js-yaml": "^4.1.0",
+    "swaggerize-routes": "^1.0.11"
   },
   "peerDependencies": {
     "restify": "^3.0.3"
   },
   "devDependencies": {
-    "tape": "^2.4.2",
+    "tape": "^5.6.3",
     "istanbul": "^0.2.3",
-    "jshint": "^2.4.1",
-    "restify": "^3.0.3",
-    "supertest": "^0.13.0"
+    "jshint": "^2.13.6",
+    "restify": "^11.1.0",
+    "supertest": "^6.3.3"
   },
   "scripts": {
     "test": "tape test/*.js",
