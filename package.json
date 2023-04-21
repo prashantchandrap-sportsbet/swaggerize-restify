@@ -27,7 +27,7 @@
   },
   "bugs": "http://github.com/bardzusny/swaggerize-restify/issues",
   "engines": {
-    "node": "0.10.x"
+    "node": "14.17.0"
   },
   "dependencies": {
     "async": "^3.2.4",
@@ -38,14 +38,14 @@
     "swaggerize-routes": "^1.0.11"
   },
   "peerDependencies": {
-    "restify": "^3.0.3"
+    "restify": "^11.1.0"
   },
   "devDependencies": {
-    "tape": "^5.6.3",
-    "istanbul": "^0.2.3",
+    "istanbul": "^0.4.5",
     "jshint": "^2.13.6",
     "restify": "^11.1.0",
-    "supertest": "^6.3.3"
+    "supertest": "^6.3.3",
+    "tape": "^5.6.3"
   },
   "scripts": {
     "test": "tape test/*.js",
