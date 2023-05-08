@@ -40,6 +40,11 @@
   "peerDependencies": {
     "restify": "^4.3.4"
   },
+  "overrides": {
+    "hoek": "4.2.1",
+    "csv-parse": "4.4.6",
+    "http-signature": "1.0.0"
+  },
   "devDependencies": {
     "istanbul": "^0.4.5",
     "jshint": "^2.13.6",
