@@ -38,12 +38,12 @@
     "swaggerize-routes": "^1.0.11"
   },
   "peerDependencies": {
-    "restify": "^11.1.0"
+    "restify": "^4.3.4"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",
     "jshint": "^2.13.6",
-    "restify": "^11.1.0",
+    "restify": "^4.3.4",
     "supertest": "^6.3.3",
     "tape": "^5.6.3"
   },
